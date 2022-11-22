@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="public/images/fotografia_miniaturas_1.png" type="image/x-icon">
+    <link rel="stylesheet" href="public/styles/style.css">
+    <title>Contact - ELiot</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html">Accueil</a>
+        </div>
+    </header>
+    <form id="form" onsubmit="alert('Email envoye')" onreset="alert('Envoi annule')" >
+        <label for="name">Votre nom</label>
+        <input type="text" name="name" id="name" required>
+        <label for="email">Votre email</label>
+        <input type="email" name="email" id="email" required>
+        <label for="message">Votre message</label>
+        <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+        <button type="submit" > Envoyer </button>
+        <button type="reset"> Annuler </button>
+    </form>
+</body>
+</html>
